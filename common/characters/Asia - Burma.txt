@@ -149,7 +149,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = fascism_corporatism_subtype
+			ideology = fascism_corporate_statism_subtype
 			traits = { }
 			expire = "1999.1.1"
 			id = -1

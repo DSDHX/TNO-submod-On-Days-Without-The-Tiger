@@ -136,11 +136,11 @@ add_ideas = {
 	tno_education_public_education
 	tno_penal_system_harsh_penal_code
 	tno_gender_rights_traditional_roles
-	tno_security_oppressive_police
+	tno_security_maintenance_of_order
 	tno_regulations_token_regulations
 	##ECONOMIC LAWS##
 	tno_trade_laws_limited_exports
-	tno_income_taxation_elite_tax_exemptions
+	tno_income_taxation_no_income_taxation
 	tno_minimum_wage_trinket_minimum_wage
 	tno_max_workhours_unlimited_work_day
 	tno_pensions_no_pensions
@@ -166,5 +166,5 @@ add_ideas = {
 }
 
 #Economy Type
-set_variable = { TNO_economy_type = token:Econ_Type_Corporatism }
+set_variable = { TNO_economy_type = token:Econ_Type_Planned }
 set_variable = { TNO_economy_subtype = token:Econ_Subtype_Dirigisme }
