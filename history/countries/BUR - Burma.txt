@@ -11,7 +11,7 @@ recruit_character = BUR_U_Kyaw_Nyein
 
 oob = "BUR_1962"
 
-set_country_flag = TNO_has_content
+set_country_flag = tno_playable_country
 
 set_technology = {
 	basic_train = 1
