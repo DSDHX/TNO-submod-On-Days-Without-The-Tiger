@@ -1,0 +1,146 @@
+#This shit only for loading
+
+focus_tree =
+{
+	id = BUR_temp_tree
+	country =
+	{
+		factor = 0
+		modifier =
+		{
+			add = 20
+			original_tag = BUR
+		}
+	}
+	default = no
+	shared_focus = BUR_focus_freedom_under_despot
+}
+
+shared_focus =
+{
+	id = BUR_focus_freedom_under_despot #暴君门口之自由
+	icon = GFX_BUR_focus_freedom_under_despot
+
+	x = 8
+	y = 0
+	
+	cost = 1
+	
+	completion_reward =
+	{
+
+	}
+}
+
+shared_focus =
+{
+	id = BUR_focus_final_term_of_Mihalache #米哈拉切的最后任期
+	icon = GFX_BUR_focus_final_term_of_Mihalache
+
+	relative_position_id = BUR_focus_freedom_under_despot
+	x = 0
+	y = 1
+
+	prerequisite =
+	{
+		focus = BUR_focus_freedom_under_despot
+	}
+	cost = 2
+
+	completion_reward =
+	{
+
+	}
+}
+
+shared_focus =
+{
+    id = BUR_focus_phantom_pain_of_SVA #第二次维也纳仲裁的幻痛
+    icon = GFX_BUR_focus_phantom_pain_of_SVA
+
+    relative_position_id = BUR_focus_final_term_of_Mihalache
+    x = -2
+    y = 1
+
+    prerequisite =
+    {
+        focus = BUR_focus_final_term_of_Mihalache
+    }
+    cost = 2
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = BUR_focus_1961_oil_field_report #1961年油田产出报告
+    icon = GFX_BUR_focus_1961_oil_field_report
+
+    relative_position_id = BUR_focus_final_term_of_Mihalache
+    x = 0
+    y = 1
+
+    prerequisite =
+    {
+        focus = BUR_focus_final_term_of_Mihalache
+    }
+    cost = 2
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = BUR_focus_residuals_of_Vienna_Diktat #蒂吉纳协议的残留
+    icon = GFX_BUR_focus_residuals_of_Vienna_Diktat
+
+    relative_position_id = BUR_focus_final_term_of_Mihalache
+    x = 2
+    y = 1
+
+    prerequisite =
+    {
+        focus = BUR_focus_final_term_of_Mihalache
+    }
+    cost = 2
+
+    completion_reward =
+    {
+
+    }
+}
+
+shared_focus =
+{
+    id = BUR_focus_message_fBUR_PNL #来自国家自由党的消息
+    icon = GFX_BUR_focus_message_fBUR_PNL
+
+    relative_position_id = BUR_focus_freedom_under_despot
+    x = 0
+    y = 3
+
+    prerequisite =
+    {
+        focus = BUR_focus_phantom_pain_of_SVA
+    }
+    prerequisite =
+    {
+        focus = BUR_focus_1961_oil_field_report
+    }
+    prerequisite =
+    {
+        focus = BUR_focus_residuals_of_Vienna_Diktat
+    }
+    cost = 2
+
+    completion_reward =
+    {
+
+    }
+}

@@ -5,9 +5,9 @@ ideas =
 	#################
 	country =
 	{
-		BUR_idea_weak_economy =
+		BUR_idea_Ambiguous_Constitution =
 		{
-			picture = BUR_weak_economy
+			picture = BUR_Ambiguous_Constitution
 			removal_cost = -1
 
 			modifier =
@@ -16,9 +16,9 @@ ideas =
 			}
 		}
 
-		BUR_idea_Ambiguous_Constitution =
+		BUR_idea_weak_economy =
 		{
-			picture = BUR_Ambiguous_Constitution
+			picture = BUR_weak_economy
 			removal_cost = -1
 
 			modifier =

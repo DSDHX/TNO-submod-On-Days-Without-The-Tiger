@@ -429,8 +429,8 @@ bookmarks = {
 			ideology = paternalism
 			ideas =
 			{
+				BUR_idea_Ambiguous_Constitution				
 				BUR_idea_weak_economy
-				BUR_idea_Ambiguous_Constitution
 				BUR_idea_Myanmar_style_oligarchy
 			}
 			focuses =

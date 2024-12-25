@@ -2,8 +2,8 @@ spriteTypes =
 {
     frameAnimatedSpriteType =
     {
-        name = "GFX_idea_BUR_weak_economy"
-        texturefile = "gfx/interface/ideas/BUR/idea_BUR_weak_economy.dds"
+        name = "GFX_idea_BUR_Ambiguous_Constitution"
+        texturefile = "gfx/interface/ideas/BUR/idea_BUR_Ambiguous_Constitution.dds"
         noOfFrames = 4
         
         animation_rate_fps = 4

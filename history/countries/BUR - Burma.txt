@@ -107,8 +107,8 @@ set_popularities = {
 add_ideas = {
 	##Starting##
 	Sphere_Economic_Dependent
-	BUR_idea_weak_economy
 	BUR_idea_Ambiguous_Constitution
+	BUR_idea_weak_economy
 	BUR_idea_Myanmar_style_oligarchy
 	##MINISTERS###
 	BUR_Thakin_Tin_hog
