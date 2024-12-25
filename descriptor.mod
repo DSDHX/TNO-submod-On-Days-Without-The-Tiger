@@ -10,5 +10,10 @@ tags={
 	"Sound"
 	"Translation"
 }
+dependencies =
+{
+	"The New Order: Last Days of Europe"
+	"The New Order: Last Days of Europe(CN.Ver)"
+}
 name="The New Order: On Days Without The Tiger"
-supported_version="1.15.3"
+supported_version="1.15.*"

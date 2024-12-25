@@ -3,16 +3,15 @@ capital = 288
 # Vacant
 recruit_character = BUR_Generic_Vacant
 
-recruit_character = BUR_Aung_San
-recruit_character = BUR_Ne_Win
-recruit_character = BUR_Thakin_Nu
-recruit_character = BUR_Thakin_Mya
-recruit_character = BUR_Bo_Hmu_Aung
-recruit_character = BUR_Thakin_Soe
+recruit_character = BUR_U_E_Maung
+recruit_character = BUR_Thakin_Tin
+recruit_character = BUR_Bo_Let_Ya
+recruit_character = BUR_Thakin_Ba_Sein
 recruit_character = BUR_U_Kyaw_Nyein
-recruit_character = BUR_U_Saw
 
 oob = "BUR_1962"
+
+set_country_flag = TNO_has_content
 
 set_technology = {
 	basic_train = 1
@@ -108,15 +107,14 @@ set_popularities = {
 add_ideas = {
 	##Starting##
 	Sphere_Economic_Dependent
-	BUR_idea_suspension_of_the_1953_constitution
-	BUR_idea_an_union_in_perpetual_conflict
-	BUR_idea_the_fading_star_of_the_father
-	BUR_idea_a_government_of_six_miles
+	BUR_idea_weak_economy
+	BUR_idea_Ambiguous_Constitution
+	BUR_idea_Myanmar_style_oligarchy
 	##MINISTERS###
-	BUR_Ne_Win_hog
-	BUR_Thakin_Nu_for
-	BUR_Thakin_Mya_eco
-	BUR_Bo_Hmu_Aung_sec
+	BUR_Thakin_Tin_hog
+	BUR_Bo_Let_Ya_sec
+	BUR_Thakin_Ba_Sein_for
+	BUR_U_Kyaw_Nyein_eco
 	##POLITICAL LAWS##
 	tno_political_parties_one_party_state
 	tno_religious_rights_state_religion

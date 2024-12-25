@@ -10,7 +10,7 @@ bookmarks = {
 		desc = "THENEWORDER_DESC"
 		date = 1962.1.1.1
 		picture = "GFX_select_date_1939"
-		default_country = "AAO"
+		default_country = "BUR"
 		default = yes
 
 		effect = {
@@ -422,7 +422,21 @@ bookmarks = {
 			}
 		}
 
-		"ZZZ" = { minor = yes history = "" }
+		"BUR" =
+		{
+			minor = yes
+			history = "BUR_THENEWORDER_DESC"
+			ideology = paternalism
+			ideas =
+			{
+				BUR_idea_weak_economy
+				BUR_idea_Ambiguous_Constitution
+				BUR_idea_Myanmar_style_oligarchy
+			}
+			focuses =
+			{
+			}
+		}
 
 		"YUN" = {
 			minor = yes

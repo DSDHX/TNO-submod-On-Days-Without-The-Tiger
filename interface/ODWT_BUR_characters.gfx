@@ -1,0 +1,28 @@
+spriteTypes =
+{
+    spriteType =
+    {
+        name = "GFX_BUR_U_E_Maung"
+        texturefile = "gfx/leaders/BUR/BUR_U_E_Maung.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_BUR_Thakin_Tin"
+        texturefile = "gfx/leaders/BUR/BUR_Thakin_Tin.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_idea_BUR_Thakin_Tin"
+        texturefile = "gfx/interface/ideas/ministers/BUR/idea_BUR_Thakin_Tin.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_BUR_Bo_Let_Ya"
+        texturefile = "gfx/leaders/BUR/BUR_Bo_Let_Ya.dds"
+    }
+    spriteType =
+    {
+        name = "GFX_idea_BUR_Bo_Let_Ya"
+        texturefile = "gfx/interface/ideas/ministers/BUR/idea_BUR_Bo_Let_Ya.dds"
+    }
+}

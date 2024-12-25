@@ -1,67 +1,38 @@
 characters = {
-	BUR_Aung_San = {
-		name = BUR_Aung_San
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/BUR/Portrait_Burma_Aung_San.dds"
+	BUR_U_E_Maung =
+	{
+		name = BUR_U_E_Maung
+		portraits =
+		{
+			civilian =
+			{
+				large = GFX_BUR_U_E_Maung
 			}
 		}
-		country_leader = {
-			desc = "POLITICS_AUNG_SAN_DESC"
-			ideology = paternalism_social_nationalism_subtype
+		country_leader =
+		{
+			desc = BUR_U_E_Maung_desc
+			ideology = paternalism_oligarchy_subtype
 			traits = { }
-			expire = "1999.1.1"
-			id = -1
 		}
 	}
 
-	BUR_Ne_Win = {
-		name = BUR_Ne_Win
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/BUR/Portrait_Burma_Ne_Win.dds"
-				small = "GFX_idea_BUR_minister_Ne_Win"
+	BUR_Thakin_Tin =
+	{
+		name = BUR_Thakin_Tin
+		portraits =
+		{
+			civilian =
+			{
+				large = GFX_BUR_Thakin_Tin
+				small = GFX_idea_BUR_Thakin_Tin
 			}
 		}
-		country_leader = {
-			ideology = despotism_military_junta_subtype
-			traits = { }
-			expire = "1999.1.1"
-			id = -1
-		}
-		advisor = {
+		advisor =
+		{
 			slot = head_of_government
-			idea_token = BUR_Ne_Win_hog
-			traits = {
-				head_of_government
-			}
-			ledger = civilian
-			cost = -1
-			can_be_fired = no
-			ai_will_do = { factor = 0 }
-		}
-	}
-
-	BUR_Thakin_Nu = {
-		name = BUR_Thakin_Nu
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/BUR/Portrait_Burma_Thakin_Nu.dds"
-				small = "GFX_idea_BUR_minister_Thakin_Nu"
-			}
-		}
-		country_leader = {
-			ideology = socialist_left_wing_nationalism_subtype
+			idea_token = BUR_Thakin_Tin_hog
 			traits = { }
-			expire = "1999.1.1"
-			id = -1
-		}
-		advisor = {
-			slot = foreign_minister
-			idea_token = BUR_Thakin_Nu_for
-			traits = {
-				foreign_minister
-			}
 			ledger = civilian
 			cost = -1
 			can_be_fired = no
@@ -69,41 +40,22 @@ characters = {
 		}
 	}
 
-	BUR_Thakin_Mya = {
-		name = BUR_Thakin_Mya
-		portraits = {
-			civilian = {
-				#large = "gfx/leaders/BUR/.dds"
-				small = "GFX_idea_BUR_minister_Thakin_Mya"
+	BUR_Bo_Let_Ya =
+	{
+		name = BUR_Bo_Let_Ya
+		portraits =
+		{
+			civilian =
+			{
+				large = GFX_BUR_Bo_Let_Ya
+				small = GFX_idea_BUR_Bo_Let_Ya
 			}
 		}
-		advisor = {
-			slot = economy_minister
-			idea_token = BUR_Thakin_Mya_eco
-			traits = {
-				economy_minister
-			}
-			ledger = civilian
-			cost = -1
-			can_be_fired = no
-			ai_will_do = { factor = 0 }
-		}
-	}
-
-	BUR_Bo_Hmu_Aung = {
-		name = BUR_Bo_Hmu_Aung
-		portraits = {
-			civilian = {
-				#large = "gfx/leaders/BUR/.dds"
-				small = "GFX_idea_BUR_minister_Hmu_Aung"
-			}
-		}
-		advisor = {
+		advisor =
+		{
 			slot = security_minister
-			idea_token = BUR_Bo_Hmu_Aung_sec
-			traits = {
-				security_minister
-			}
+			idea_token = BUR_Bo_Let_Ya_sec
+			traits = { }
 			ledger = civilian
 			cost = -1
 			can_be_fired = no
@@ -111,48 +63,49 @@ characters = {
 		}
 	}
 
-	BUR_Thakin_Soe = {
-		name = BUR_Thakin_Soe
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/BUR/Portrait_Burma_Thakin_Soe.dds"
+	BUR_Thakin_Ba_Sein =
+	{
+		name = BUR_Thakin_Ba_Sein
+		portraits =
+		{
+			civilian =
+			{
+				# large = GFX_BUR_Bo_Let_Ya
+				# small = GFX_idea_BUR_Bo_Let_Ya
 			}
 		}
-		country_leader = {
-			ideology = communist_national_communism_subtype
+		advisor =
+		{
+			slot = foreign_minister
+			idea_token = BUR_Thakin_Ba_Sein_for
 			traits = { }
-			expire = "1999.1.1"
-			id = -1
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
 		}
 	}
 
-	BUR_U_Kyaw_Nyein = {
+	BUR_U_Kyaw_Nyein =
+	{
 		name = BUR_U_Kyaw_Nyein
-		portraits = {
-			civilian = {
-				#large = "gfx/leaders/BUR/.dds"
+		portraits =
+		{
+			civilian =
+			{
+				# large = GFX_BUR_Bo_Let_Ya
+				# small = GFX_idea_BUR_Bo_Let_Ya
 			}
 		}
-		country_leader = {
-			ideology = progressivism_subtype
+		advisor =
+		{
+			slot = economy_minister
+			idea_token = BUR_U_Kyaw_Nyein_eco
 			traits = { }
-			expire = "1999.1.1"
-			id = -1
-		}
-	}
-
-	BUR_U_Saw = {
-		name = BUR_U_Saw
-		portraits = {
-			civilian = {
-				#large = "gfx/leaders/BUR/.dds"
-			}
-		}
-		country_leader = {
-			ideology = fascism_corporate_statism_subtype
-			traits = { }
-			expire = "1999.1.1"
-			id = -1
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
 		}
 	}
 }

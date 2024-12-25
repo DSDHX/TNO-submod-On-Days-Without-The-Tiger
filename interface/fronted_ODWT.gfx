@@ -1,0 +1,8 @@
+spriteTypes =
+{
+    spriteType =
+    {
+        name = "GFX_TNO_OpeningScreen_Poster_BUR"
+        texturefile = "gfx/interface/GFX_TNO_OpeningScreen_Poster_BUR.dds"
+    }
+}
