@@ -10,4 +10,14 @@ spriteTypes =
         looping = yes
         play_on_show = yes
     }
+    frameAnimatedSpriteType =
+    {
+        name = "GFX_idea_BUR_weak_economy"
+        texturefile = "gfx/interface/ideas/BUR/idea_BUR_weak_economy.dds"
+        noOfFrames = 2
+        
+        animation_rate_fps = 2
+        looping = yes
+        play_on_show = yes
+    }
 }
